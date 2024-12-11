@@ -61,3 +61,12 @@ Aqui estoy cerrando lo de arriba
 Le dido que me escuche el puerto
 - console.log(`server running in port ${PORT}`)
 Me envio este mensaje para saber que todo esta OK
+
+### Rutas y contraladores 
+Primero creamos las carpetas con
+```
+mkdir controllers models routes 
+```
+- exports,holaMundo = (req,res)=>{
+Aqui este codigo esta definiendo una funcion que puede ser llamada cuando alguien haga la solicitud
+-  console.log("hola desde el computador")
